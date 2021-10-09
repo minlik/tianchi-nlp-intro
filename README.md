@@ -39,3 +39,23 @@ train_df['word'] = train_df['text'].apply(lambda x: len(x.split(' ')))
 - [x] 统计数据集中类别分布的规律
 
 - [x] 统计数据集中不同类别下句子中最常见的5个字符
+
+**（10月11日）任务3：使用 TFIDF 提取文本特征**
+
+- [x] 学习 TFIDF 的原理
+
+- [x] 学会使用 CountVectorizer
+
+- [x] 学会使用 TfidfVectorizer
+
+**（10月11日）任务4：使用 TFIDF 特征 和 线性模型完成训练和预测**
+
+- [x] 使用 TFIDF 提取训练集和测试集特征
+
+- [x] 使用线性模型（LR 等）完成模型的训练和预测
+
+**（10月11日）任务5：使用 TFIDF 特征 和 XGBoost 完成训练和预测**
+
+- [x] 使用 TFIDF 提取训练集和测试集特征
+
+- [x] 使用 XGBoost 完成模型的训练和预测
